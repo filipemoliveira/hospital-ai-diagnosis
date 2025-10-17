@@ -1,0 +1,11 @@
+---
+
+## 6️⃣ Criar o `requirements.txt` inicial
+
+```txt
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+```
