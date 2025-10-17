@@ -38,7 +38,7 @@ All results, including graphs, screenshots, and evaluation metrics, will be stor
 Include visuals, metrics, and analysis to make your work clear and reproducible.
 
 ## 👤 Author
-Filipe Mendes
+Filipe Mendes  
 🌐 GitHub: https://github.com/filipemoliveira  
 🔗 LinkedIn: https://www.linkedin.com/in/filipecrm  
 
