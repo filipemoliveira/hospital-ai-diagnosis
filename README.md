@@ -39,6 +39,6 @@ Include visuals, metrics, and analysis to make your work clear and reproducible.
 
 ## 👤 Author
 Filipe Mendes
-🌐 GitHub: https://github.com/filipemoliveira
-🔗 LinkedIn: https://www.linkedin.com/in/filipecrm
+🌐 GitHub: https://github.com/filipemoliveira  
+🔗 LinkedIn: https://www.linkedin.com/in/filipecrm  
 
