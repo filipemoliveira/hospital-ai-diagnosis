@@ -1,6 +1,6 @@
 # 🏥 Diagnóstico Hospitalar com IA
 
-Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** para apoiar diagnósticos médicos utilizando dados estruturados e imagens médicas.
+Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** para apoiar diagnósticos médicos utilizando dados estruturados.
 
 ---
 
