@@ -6,11 +6,11 @@ Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** p
 
 ## 📂 Estrutura do Projeto
 
-- `data/` → datasets utilizados (ou links se forem muito grandes)  
+- `dados/` → datasets utilizados (ou links se forem muito grandes)  
 - `notebooks/` → notebooks Jupyter para experimentos e análises  
 - `src/` → scripts Python (pré-processamento, treinamento, avaliação)  
-- `results/` → gráficos, capturas de tela e métricas de avaliação  
-- `requirements.txt` → dependências do projeto  
+- `resultados/` → gráficos, capturas de tela e métricas de avaliação  
+- `requisitos.txt` → dependências do projeto  
 - `Dockerfile` → configuração do container (opcional)  
 
 ---
@@ -18,7 +18,7 @@ Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** p
 ## 🧰 Tecnologias
 
 - **Linguagem de Programação:** Python  
-- **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow (opcional)  
+- **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow  
 - **Ambiente:** Jupyter, VS Code, Docker  
 - **Controle de Versão:** Git / GitHub  
 
@@ -34,10 +34,9 @@ python src/training.py
 
 ## 📊 Results
 
-All results, including graphs, screenshots, and evaluation metrics, will be stored in the results/ folder.
-Include visuals, metrics, and analysis to make your work clear and reproducible.
+Todos os resultados incluindo graficos, prints e metricas de avaliação, bem como o relatório tecnico serão armazenados na pasta resultados.  
 
-## 👤 Author
+## 👤 Autor
 Filipe Mendes  
 🌐 GitHub: https://github.com/filipemoliveira  
 🔗 LinkedIn: https://www.linkedin.com/in/filipecrm  
