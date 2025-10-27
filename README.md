@@ -1,32 +1,32 @@
-# 🏥 Hospital AI Diagnosis
+# 🏥 Diagnóstico Hospitalar com IA
 
-This project focuses on **Artificial Intelligence (AI) and Machine Learning (ML)** to support medical diagnosis using structured data and medical images.
-
----
-
-## 📂 Project Structure
-
-- `data/` → datasets used (or links if too large)
-- `notebooks/` → Jupyter notebooks for experiments and analysis
-- `src/` → Python scripts (preprocessing, training, evaluation)
-- `results/` → graphs, screenshots, and evaluation metrics
-- `requirements.txt` → project dependencies
-- `Dockerfile` → container setup (optional)
+Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** para apoiar diagnósticos médicos utilizando dados estruturados e imagens médicas.
 
 ---
 
-## 🧰 Technologies
+## 📂 Estrutura do Projeto
 
-- **Programming Language:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow (optional)  
-- **Environment:** Jupyter, VS Code, Docker  
-- **Version Control:** Git / GitHub  
+- `data/` → datasets utilizados (ou links se forem muito grandes)  
+- `notebooks/` → notebooks Jupyter para experimentos e análises  
+- `src/` → scripts Python (pré-processamento, treinamento, avaliação)  
+- `results/` → gráficos, capturas de tela e métricas de avaliação  
+- `requirements.txt` → dependências do projeto  
+- `Dockerfile` → configuração do container (opcional)  
 
 ---
 
-## 🚀 How to Run
+## 🧰 Tecnologias
 
-## Install dependencies & Run training script
+- **Linguagem de Programação:** Python  
+- **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow (opcional)  
+- **Ambiente:** Jupyter, VS Code, Docker  
+- **Controle de Versão:** Git / GitHub  
+
+---
+
+## 🚀 Como Executar
+
+### Instalar dependências e executar script de treinamento
 ```bash
 pip install -r requirements.txt
 python src/training.py
