@@ -1,6 +1,10 @@
 # 🏥 Diagnóstico Hospitalar com IA
 
-Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** para apoiar diagnósticos médicos utilizando dados estruturados.
+# 🩺 Diagnóstico de Diabetes — Projeto de Machine Learning
+
+Este projeto tem como objetivo aplicar técnicas de aprendizado de máquina para prever a presença de **diabetes** com base em variáveis clínicas.
+
+Foram desenvolvidos **notebooks Jupyter** para análise detalhada e discussão dos resultados, e **scripts Python** que permitem a execução completa do pipeline de forma automatizada.
 
 ---
 
@@ -15,26 +19,81 @@ Este projeto foca em **Inteligência Artificial (IA) e Machine Learning (ML)** p
 
 ---
 
-## 🧰 Tecnologias
+## ⚙️ Como Configurar o Ambiente
 
-- **Linguagem de Programação:** Python  
-- **Bibliotecas:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow  
-- **Ambiente:** Jupyter, VS Code, Docker  
-- **Controle de Versão:** Git / GitHub  
+Crie e ative um ambiente virtual:
 
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux/Mac
+.venv\Scripts\activate      # Windows
+```
+
+---
+
+## Instale as dependências
+```bash
+pip install -r requirements.txt
+```
 ---
 
 ## 🚀 Como Executar
 
-### Instalar dependências e executar script de treinamento
+### 1️⃣ Executar o projeto completo de forma automatica (script Python)
+#### O script abaixo executa as 3 etapas (EDA - Pré-Processamento - Modelagem) em sequência:
 ```bash
-pip install -r requirements.txt
-python src/training.py
+python python run_pipeline.py
 ```
+
+### 2️⃣ Executar o projeto manualmente (via notebooks)
+#### Para ver os resultados passo a passo e a analise completa:
+##### - Inicie o Jupyter
+```bash
+jupyter notebook
+```   
+##### - Abra e execute os notebooks em ordem:
+1- EDA.ipynb
+2- PreProcessamento.ipynb
+3- Modelagem.ipynb
+
+##### 💡 O dataset gerado no notebook de pré-processamento é utilizado no notebook de modelagem
+
+---
 
 ## 📊 Results
 
-Todos os resultados incluindo graficos, prints e metricas de avaliação, bem como o relatório tecnico serão armazenados na pasta resultados.  
+Os resultados incluindo graficos e metricas de avaliação estão descritos no arquivo pdf.  
+Uma copia do arquivo pode ser encontrada na pasta resultados.  
+
+---
+
+## 👨‍💻 Modelos e Técnicas Utilizadas
+
+- Regressão Logística
+- Árvore de Decisão
+- Random Forest
+- Normalização e Padronização
+- Balanceamento de Classes (SMOTE)
+- Avaliação: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+- Interpretação: Feature Importance e SHAP Values
+
+---
+
+## 📚 Requisitos
+
+As bibliotecas necessárias estão listadas em requirements.txt.
+
+---
+
+## 🧠 Observação Final
+
+Este projeto foi desenvolvido para fins acadêmicos, com foco em:
+- Clareza e estruturação do código
+- Reprodutibilidade do pipeline
+- Comparação de algoritmos de classificação
+- Documentação técnica e visual (notebooks e relatório PDF)
+
+---
 
 ## 👤 Autor
 Filipe Mendes  
