@@ -56,11 +56,22 @@ jupyter notebook
 2- PreProcessamento.ipynb  
 3- Modelagem.ipynb
 
-##### 💡 O dataset gerado no notebook de pré-processamento é utilizado no notebook de modelagem
+##### 💡 O dataset gerado no notebook de pré-processamento é utilizado no notebook de modelagem  
+
+### 3️⃣ Executar via Docker (Container)
+#### Caso não queira instalar nada localmente, você pode rodar todo o projeto dentro de um container Docker:
+1- Construir a imagem  
+```bash
+docker build -t diabetes-ml .
+```
+2- Executar o container  
+```bash
+docker run --rm -it diabetes-ml
+```   
 
 ---
 
-## 📊 Results
+## 📊 Resultados
 
 Os resultados incluindo graficos e metricas de avaliação estão descritos no arquivo pdf.  
 Uma copia do arquivo pode ser encontrada na pasta resultados.  
