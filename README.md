@@ -15,7 +15,7 @@ Foram desenvolvidos **notebooks Jupyter** para análise detalhada e discussão d
 - `src/` → scripts Python (pré-processamento, treinamento, avaliação)  
 - `resultados/` → gráficos, capturas de tela e métricas de avaliação  
 - `requisitos.txt` → dependências do projeto  
-- `Dockerfile` → configuração do container (opcional)  
+- `Dockerfile` → configuração do container  
 
 ---
 
@@ -52,8 +52,8 @@ python python run_pipeline.py
 jupyter notebook
 ```   
 ##### - Abra e execute os notebooks em ordem:
-1- EDA.ipynb
-2- PreProcessamento.ipynb
+1- EDA.ipynb  
+2- PreProcessamento.ipynb  
 3- Modelagem.ipynb
 
 ##### 💡 O dataset gerado no notebook de pré-processamento é utilizado no notebook de modelagem
