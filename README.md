@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ### 1️⃣ Executar o projeto completo de forma automatica (script Python)
 #### O script abaixo executa as 3 etapas (EDA - Pré-Processamento - Modelagem) em sequência:
 ```bash
-python python run_pipeline.py
+python src/pipeline.py
 ```
 
 ### 2️⃣ Executar o projeto manualmente (via notebooks)

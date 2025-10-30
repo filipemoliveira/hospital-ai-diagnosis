@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 8888
 
 # 6️⃣ Comando padrão para rodar o script pipeline
-CMD ["python", "run_pipeline.py"]
+CMD ["python", "src/run_pipeline.py"]
