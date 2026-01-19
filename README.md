@@ -1,4 +1,32 @@
 # 🏥 Diagnóstico Hospitalar com IA
+# 🩺 Predição de Diabetes com Machine Learning, Otimização e LLMs
+
+Este projeto tem como objetivo aplicar técnicas de Machine Learning para prever a presença de **diabetes** a partir de variáveis clínicas, evoluindo o modelo base com otimização por **Algoritmos Genéticos** e interpretação de resultados com **Large Language Models (LLMs)**.
+
+O trabalho está organizado em duas fases, seguindo uma abordagem incremental e acadêmica.  
+
+## 🔬 Visão Geral das Fases
+### ✅ Fase 1 — Modelagem Base
+
+- Análise Exploratória dos Dados (EDA)
+- Pré-processamento e balanceamento de classes
+- Treinamento de modelos clássicos de classificação
+- Avaliação com métricas tradicionais
+- Geração de resultados e relatório técnico
+
+### 🚀 Fase 2 — Otimização e Interpretabilidade (Projeto 1)
+
+- Otimização de hiperparâmetros via Algoritmos Genéticos
+- Priorização de métricas clínicas (ex: Recall)
+- Comparação entre modelo base e modelo otimizado
+- Registro estruturado de métricas e logs
+- Integração com LLMs para interpretação automática dos resultados
+
+
+
+
+
+# 🏥 Diagnóstico Hospitalar com IA
 
 # 🩺 Diagnóstico de Diabetes — Projeto de Machine Learning
 

@@ -1,0 +1,16 @@
+{
+    "timestamp": "2026-01-19T14:01:47.107160",
+    "model": "Logistic Regression",
+    "optimization": "Genetic Algorithm",
+    "hyperparameters": {
+        "C": 0.00042813323987193956,
+        "penalty": "l2",
+        "max_iter": 500,
+        "class_weight": "balanced"
+    },
+    "metrics": {
+        "Recall": 0.7962962962962963,
+        "F1": 0.6370370370370371,
+        "Accuracy": 0.6818181818181818
+    }
+}
