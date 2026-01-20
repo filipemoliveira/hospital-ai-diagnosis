@@ -150,15 +150,6 @@ Este projeto foi desenvolvido com foco em:
 - Separação entre teoria, experimentação e análise
 - Boas práticas de projetos acadêmicos em IA e ML
 
-
-# 🏥 Diagnóstico Hospitalar com IA
-
-# 🩺 Diagnóstico de Diabetes — Projeto de Machine Learning
-
-Este projeto tem como objetivo aplicar técnicas de aprendizado de máquina para prever a presença de **diabetes** com base em variáveis clínicas.
-
-Foram desenvolvidos **notebooks Jupyter** para análise detalhada e discussão dos resultados, e **scripts Python** que permitem a execução completa do pipeline de forma automatizada.
-
 ---
 
 ## 👤 Autor
