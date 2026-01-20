@@ -22,9 +22,29 @@ O trabalho está organizado em duas fases, seguindo uma abordagem incremental e 
 - Registro estruturado de métricas e logs
 - Integração com LLMs para interpretação automática dos resultados
 
+---
 
+## 📂 Estrutura do Projeto
 
+- `dados/` → datasets utilizados (ou links se forem muito grandes)  
+- `notebooks/` → notebooks Jupyter para experimentos e análises  
+- `src/` → scripts Python (pré-processamento, treinamento, avaliação)  
+- `resultados/` → gráficos, capturas de tela e métricas de avaliação  
+- `requisitos.txt` → dependências do projeto  
+- `Dockerfile` → configuração do container  
 
+---
+
+## ⚙️ Configuração do Ambiente
+Crie e ative um ambiente virtual:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux/Mac
+.venv\Scripts\activate      # Windows
+```
+
+---
 
 # 🏥 Diagnóstico Hospitalar com IA
 
