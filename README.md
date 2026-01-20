@@ -54,8 +54,6 @@ pip install -r requirements.txt
 
 ## 🚀 Como Executar o Projeto
 ### ▶️ Execução Automatizada (Pipeline)
-
-Executa a Fase 1 de ponta a ponta:
 ```bash
 python src/pipeline.py
 ```
