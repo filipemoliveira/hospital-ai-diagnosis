@@ -1,6 +1,6 @@
 {
-    "C": 0.00042813323987193956,
+    "C": 0.00020691380811147902,
     "penalty": "l2",
-    "max_iter": 500,
+    "max_iter": 100,
     "class_weight": "balanced"
 }
