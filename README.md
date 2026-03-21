@@ -147,6 +147,25 @@ Gráficos e análises completas estão documentados no relatório PDF.
 
 ---
 
+
+## 🧩 Arquitetura da Fase 3
+
+A solução da Fase 3 foi estruturada em etapas:
+
+1. Preparação dos dados médicos  
+2. Fine-tuning da LLM  
+3. Construção do assistente com LangChain  
+4. Orquestração do fluxo clínico com LangGraph  
+5. Validação humana e geração de resposta final  
+6. Registro de logs para auditoria  
+
+Os diagramas estão disponíveis em:
+
+- `artefatos/Fase 3/Diagrama Completo.png`  
+- `artefatos/Fase 3/Diagrama Video.png`  
+
+---
+
 ### 🤖 Técnicas e Tecnologias Utilizadas
 #### Modelagem
 
@@ -176,24 +195,6 @@ Gráficos e análises completas estão documentados no relatório PDF.
 - LangChain  
 - LangGraph  
 - Azure OpenAI / LLMs  
-
----
-
-## 🧩 Arquitetura da Fase 3
-
-A solução da Fase 3 foi estruturada em etapas:
-
-1. Preparação dos dados médicos  
-2. Fine-tuning da LLM  
-3. Construção do assistente com LangChain  
-4. Orquestração do fluxo clínico com LangGraph  
-5. Validação humana e geração de resposta final  
-6. Registro de logs para auditoria  
-
-Os diagramas estão disponíveis em:
-
-- `artefatos/Fase 3/Diagrama Completo.png`  
-- `artefatos/Fase 3/Diagrama Video.png`  
 
 ---
 
