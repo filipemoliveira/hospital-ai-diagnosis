@@ -20,18 +20,33 @@ O trabalho está organizado em duas fases, seguindo uma abordagem incremental e 
 - Priorização de métricas clínicas (ex: Recall)
 - Comparação entre modelo base e modelo otimizado
 - Registro estruturado de métricas e logs
-- Integração com LLMs para interpretação automática dos resultados
+- Integração com LLMs para interpretação automática dos resultados  
+
+
+### 🧠 Fase 3 — Assistente Clínico com LLM
+
+- Fine-tuning de LLM com dados médicos (dataset público e dados sintéticos)
+- Construção de assistente clínico com LangChain
+- Orquestração de fluxo clínico com LangGraph
+- Contextualização com dados do paciente
+- Implementação de segurança e governança:
+  - Logging estruturado e auditoria
+  - Explainability (justificativa das respostas)
+  - Validação humana no fluxo
+- Avaliação do modelo com cenários clínicos simulados
 
 ---
 
 ## 📂 Estrutura do Projeto
 
 - `dados/` → datasets utilizados (ou links se forem muito grandes)  
-- `notebooks/` → notebooks Jupyter para experimentos e análises  
-- `src/` → scripts Python (pré-processamento, treinamento, avaliação)  
-- `resultados/` → gráficos, capturas de tela e métricas de avaliação  
-- `requisitos.txt` → dependências do projeto  
-- `Dockerfile` → configuração do container  
+- `notebooks/` → notebooks Jupyter organizados por fase  
+- `src/` → scripts Python para execução dos pipelines  
+- `resultados/` → métricas e outputs dos modelos  
+- `artefatos/` → imagens, diagramas e materiais auxiliares  
+- `logs/` → logs estruturados do sistema clínico  
+- `requirements.txt` → dependências do projeto  
+- `Dockerfile` → configuração do container 
 
 ---
 
@@ -53,7 +68,7 @@ pip install -r requirements.txt
 ---
 
 ## 🚀 Como Executar o Projeto
-### ▶️ Execução Automatizada (Pipeline)
+### ▶️ Execução Automatizada (Pipeline fase 3)
 ```bash
 python src/pipeline.py
 ```
@@ -78,7 +93,27 @@ Execute os notebooks em ordem:
 → Otimização dos hiperparâmetros com Algoritmo Genético
 
 - Integracao_LLM.ipynb
-→ Interpretação automática dos resultados com LLM
+→ Interpretação automática dos resultados com LLM  
+
+
+### Fase 3 — Assistente Clínico
+
+Execute os notebooks em ordem:
+
+- `01_llm/01_fine_tuning_processamento.ipynb`  
+→ Preparação e curadoria dos dados
+
+- `01_llm/02_fine_tuning_azure.ipynb`  
+→ Execução do fine-tuning
+
+- `02_assistente/assistente_langchain.ipynb`  
+→ Construção do assistente clínico
+
+- `03_fluxo_langgraph/fluxo_langgraph.ipynb`  
+→ Orquestração do fluxo clínico
+
+- `05_avaliacao_modelo/avaliacao_modelo.ipynb`  
+→ Avaliação do modelo com cenários clínicos simulados
 
 ---
 
