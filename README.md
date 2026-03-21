@@ -169,7 +169,43 @@ Gráficos e análises completas estão documentados no relatório PDF.
 #### Interpretabilidade
 - Feature Importance
 - SHAP Values
-- Interpretação textual via LLM
+- Interpretação textual via LLM  
+
+#### IA Generativa e Orquestração
+
+- LangChain  
+- LangGraph  
+- Azure OpenAI / LLMs  
+
+---
+
+## 🧩 Arquitetura da Fase 3
+
+A solução da Fase 3 foi estruturada em etapas:
+
+1. Preparação dos dados médicos  
+2. Fine-tuning da LLM  
+3. Construção do assistente com LangChain  
+4. Orquestração do fluxo clínico com LangGraph  
+5. Validação humana e geração de resposta final  
+6. Registro de logs para auditoria  
+
+Os diagramas estão disponíveis em:
+
+- `artefatos/Fase 3/Diagrama Completo.png`  
+- `artefatos/Fase 3/Diagrama Video.png`  
+
+---
+
+## 🔐 Segurança e Governança
+
+A solução implementa mecanismos para garantir uso seguro:
+
+- Não prescrição automática de medicamentos  
+- Validação humana obrigatória antes da resposta final  
+- Logging estruturado de todas as etapas do fluxo  
+- Rastreabilidade completa (input, output e decisões)  
+- Explainability com justificativa baseada nos dados do paciente  
 
 ---
 
