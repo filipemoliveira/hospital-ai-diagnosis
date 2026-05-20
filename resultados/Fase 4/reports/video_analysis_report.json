@@ -1,0 +1,69 @@
+{
+    "report_type": "video_analysis",
+    "phase": "Fase 4",
+    "generated_at": "2026-05-19T17:16:25.666487",
+    "video_file": "vio_2.mp4",
+    "method": "YOLOv8 Pose pre-trained model + behavioral heuristic layer",
+    "summary": {
+        "visual_score": 0.8357,
+        "max_frame_score": 0.9,
+        "visual_risk_level": "ALTO",
+        "frames_analyzed": 7,
+        "frames_with_hands_near_face": 6,
+        "frames_with_defensive_posture": 7
+    },
+    "evidence": {
+        "frames": [
+            {
+                "frame": "frame_0000.jpg",
+                "person_count": 4,
+                "hands_near_face_count": 0,
+                "defensive_posture_count": 3,
+                "behavior_score": 0.44999999999999996
+            },
+            {
+                "frame": "frame_0001.jpg",
+                "person_count": 5,
+                "hands_near_face_count": 1,
+                "defensive_posture_count": 1,
+                "behavior_score": 0.9
+            },
+            {
+                "frame": "frame_0002.jpg",
+                "person_count": 5,
+                "hands_near_face_count": 1,
+                "defensive_posture_count": 1,
+                "behavior_score": 0.9
+            },
+            {
+                "frame": "frame_0003.jpg",
+                "person_count": 5,
+                "hands_near_face_count": 1,
+                "defensive_posture_count": 2,
+                "behavior_score": 0.9
+            },
+            {
+                "frame": "frame_0004.jpg",
+                "person_count": 5,
+                "hands_near_face_count": 3,
+                "defensive_posture_count": 3,
+                "behavior_score": 0.9
+            },
+            {
+                "frame": "frame_0005.jpg",
+                "person_count": 5,
+                "hands_near_face_count": 3,
+                "defensive_posture_count": 2,
+                "behavior_score": 0.9
+            },
+            {
+                "frame": "frame_0006.jpg",
+                "person_count": 5,
+                "hands_near_face_count": 1,
+                "defensive_posture_count": 2,
+                "behavior_score": 0.9
+            }
+        ]
+    },
+    "ethical_note": "This analysis is intended for academic demonstration and preventive decision support only. It must not be interpreted as a clinical diagnosis or definitive evidence of abuse or violence."
+}

@@ -1,0 +1,8 @@
+frame,person_count,hands_near_face_count,defensive_posture_count,behavior_score
+frame_0000.jpg,4,0,3,0.44999999999999996
+frame_0001.jpg,5,1,1,0.9
+frame_0002.jpg,5,1,1,0.9
+frame_0003.jpg,5,1,2,0.9
+frame_0004.jpg,5,3,3,0.9
+frame_0005.jpg,5,3,2,0.9
+frame_0006.jpg,5,1,2,0.9
