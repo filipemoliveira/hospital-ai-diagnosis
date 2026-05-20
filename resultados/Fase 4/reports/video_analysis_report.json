@@ -1,7 +1,7 @@
 {
     "report_type": "video_analysis",
     "phase": "Fase 4",
-    "generated_at": "2026-05-19T17:16:25.666487",
+    "generated_at": "2026-05-20T14:10:17.752414",
     "video_file": "vio_2.mp4",
     "method": "YOLOv8 Pose pre-trained model + behavioral heuristic layer",
     "summary": {
