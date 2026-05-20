@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 import time
 import os
+from dotenv import load_dotenv
 
 import cv2
 from ultralytics import YOLO
@@ -20,12 +21,12 @@ import matplotlib.pyplot as plt
 # CONFIGURAÇÕES AZURE
 # ============================================================
 
+load_dotenv()
 SPEECH_KEY = os.getenv("AZURE_SPEECH_KEY")
 SPEECH_REGION = os.getenv("AZURE_SPEECH_REGION")
 
 LANGUAGE_KEY = os.getenv("AZURE_LANG_KEY")
-LANGUAGE_ENDPOINT = os.getenv("AZURE_LANG_REGION")
-
+LANGUAGE_ENDPOINT = os.getenv("AZURE_LANG_ENDPOINT")
 
 # ============================================================
 # PATHS
@@ -235,7 +236,8 @@ def analyze_video(video_path: Path):
 # SPEECH TO TEXT
 # ============================================================
 
-def transcribe_audio(audio_path: Path):
+
+def transcribe_audio(audio_path: Path) -> str:
 
     speech_config = speechsdk.SpeechConfig(
         subscription=SPEECH_KEY,
@@ -269,6 +271,19 @@ def transcribe_audio(audio_path: Path):
     transcription = " ".join(all_results).strip()
 
     return transcription
+
+
+normalize_audio(
+    AUDIO_PATH,
+    AUDIO_PROCESSED_PATH
+)
+
+transcription = transcribe_audio(
+    AUDIO_PROCESSED_PATH
+)
+
+print("Transcrição:")
+print(transcription)
 
 
 # ============================================================
